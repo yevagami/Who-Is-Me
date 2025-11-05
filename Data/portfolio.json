@@ -1,0 +1,104 @@
+{
+    "items":[
+        {
+            "title" : "Morithon",
+            "tags" : ["Unreal Engine", "3D", "Platformer", "Multiplayer"],
+            "description" : [
+                "Based on a popular minigame from Garry’s Mod, Morithon is a game that puts up to 4 players in a race against each other on an obstacle course.",
+                "Another player, the host of the game show, can activate various traps to stop the others in their tracks by using a drone.",
+                "This was a school project completed by a group of 45 students in a single semester. "],
+            "mediaUrl" : [
+                "./Assets/Portfolio/Morithon/MO-1.png",
+                "./Assets/Portfolio/Morithon/MO-2.png",
+                "./Assets/Portfolio/Morithon/MO-3.png",
+                "./Assets/Portfolio/Morithon/MO-4.png",
+                "./Assets/Portfolio/Morithon/MO-5.jpeg"
+            ]
+        },
+
+        {
+            "title" : "Purranormal Activity",
+            "tags" : ["Unity", "2D", "Side scrolling", "Puzzle", "Action"],
+            "description" : [
+                "A 2D side scrolling game where you take the form of a ghost cat trying to cause as much chaos as you can.",
+                "Made for the 2024 Black Cat Jam"],
+            "mediaUrl" : [
+                "./Assets/Portfolio/Purranormal Activity/PA-1.png",
+                "./Assets/Portfolio/Purranormal Activity/PA-2.png",
+                "./Assets/Portfolio/Purranormal Activity/PA-3.png",
+                "./Assets/Portfolio/Purranormal Activity/PA-4.png"
+            ]
+        },
+
+        {
+            "title" : "ELUDE",
+            "tags" : ["Unity", "2D", "Side scrolling", "Horror"],
+            "description" : [
+                "A 2D sidescrolling horror game. Where you traverse through a house collecting mementos and avoiding a wandering hideous creature",
+                "This game was made in Unity for the 2023 TOJam"],
+            "mediaUrl" : [
+                "./Assets/Portfolio/Elude/E-1.png",
+                "./Assets/Portfolio/Elude/E-2.png",
+                "./Assets/Portfolio/Elude/E-3.png",
+                "./Assets/Portfolio/Elude/E-4.png"
+            ]
+        },
+
+        {
+            "title" : "Paper Paladin",
+            "tags" : ["Unity", "2D", "Top down", "Action"],
+            "description" : [
+                "A top down action game where the player fights hordes of paper cutout enemies with a giant plastic knife",
+                "This game was made in the first two weeks of my Game Physics class where I was the lead programmer"],
+            "mediaUrl" : [
+                "./Assets/Portfolio/Paper Paladin/PP-1.jpg",
+                "./Assets/Portfolio/Paper Paladin/PP-2.jpg",
+                "./Assets/Portfolio/Paper Paladin/PP-3.jpg",
+                "./Assets/Portfolio/Paper Paladin/PP-4.jpg"
+            ]
+        },
+
+        {
+            "title" : "Wolf's Lost Legacy",
+            "tags" : ["Unity", "2D", "Side scrolling", "Platformer"],
+            "description" : [
+                "A 2D sidescroller game. You play as a wolf that must traverse through levels, gain powerups and new abilities, all to reunite with your family",
+                "TA digital prototype of a game that we created in Unity in our Game Concepts class. I worked as a lead programmer"],
+            "mediaUrl" : [
+                "./Assets/Portfolio/Wolf's Lost Legacy/WLL-1.jpg",
+                "./Assets/Portfolio/Wolf's Lost Legacy/WLL-2.jpg",
+                "./Assets/Portfolio/Wolf's Lost Legacy/WLL-3.jpg",
+                "./Assets/Portfolio/Wolf's Lost Legacy/WLL-4.jpg"
+            ]
+        },
+
+        {
+            "title" : "Bunch O Boxes",
+            "tags" : ["Unity", "2D", "Side scrolling", "Puzzle"],
+            "description" : [
+                "Solve puzzles by detaching and reattaching yourself to other boxes to reach the end,",
+                "Made for the 2024 GMTK Jam"],
+            "mediaUrl" : [
+                "./Assets/Portfolio/Bunch O Boxes/BOB-1.png",
+                "./Assets/Portfolio/Bunch O Boxes/BOB-2.png",
+                "./Assets/Portfolio/Bunch O Boxes/BOB-3.png",
+                "./Assets/Portfolio/Bunch O Boxes/BOB-4.png"
+            ]
+        },
+
+        {
+            "title" : "Daemon Crawlers",
+            "tags" : ["C++", "OpenGL", "SDL", "2D", "Top Down", "Action"],
+            "description" : [
+                "A top down action game where the player must clear hordes of demons to progress to the next room in this endless dungeon.",
+                "This was my midstone project in 3rd semester. It is made entirely in C++ using SDL2"],
+            "mediaUrl" : [
+                "./Assets/Portfolio/Daemon Crawlers/DC-1.png",
+                "./Assets/Portfolio/Daemon Crawlers/DC-2.png",
+                "./Assets/Portfolio/Daemon Crawlers/DC-3.png",
+                "./Assets/Portfolio/Daemon Crawlers/DC-4.png"
+            ]
+        }
+
+    ]
+}   

@@ -1,0 +1,51 @@
+{
+  "items": [
+  {
+    "Position": "Genshin Impact UGC Beta Programmer",
+    "Company": "Hoyoverse, Singapore",
+    "Date": "July - August 2025",
+    "Details": ["Due to the nature of the project, details will only be disclosed during interviews"]
+  },
+
+  {
+    "Position": "Unreal Engine Animation Programmer",
+    "Company": "Iwang Studios, Indonesia",
+    "Date": "April - June 2025",
+    "Details": [
+      "Worked with the Unreal Engine Game Animation Sample Project to implement new mechanics.",
+      "Implemented prone and cover systems.",
+      "Created procedural animations to blend the existing animations with new third party ones."]
+  },
+
+  {
+    "Position": "Gameplay Programmer (Intern)",
+    "Company": "Northern Lynx Studios, Canada",
+    "Date": "Jan - April 2025",
+    "Details": [
+      "Collaborated with others to expand an existing Unity codebase",
+      "Revamped the basic player movement controls to one that is more scalable with the amount of player actions",
+      "Implemented various talent trees and skills that the player can use"]
+  },
+
+  {
+    "Position": "In-Class Tutor (Game Physics 1)",
+    "Company": "Humber College, ON, Canada",
+    "Date": "Jan - April 2024",
+    "Details": [
+      "Provided guidance to students in physics and programming; facilitating them in strategic thinking and motivating them to grow.",
+      "Supporting students facing academic difficulties by offering targeted support and resources to help them improve their performance.",
+      "Created and maintained an open and judgment-free study environment, encouraging students to express their thoughts freely in collaborations & discussions without fear of criticism."]
+  },
+
+  {
+    "Position": "Assistant Student Researcher (Unity XR)",
+    "Company": "Humber College, ON, Canada",
+    "Date": "May - Aug 2023",
+    "Details": [
+      "Implementing strategies through development of demonstrations, showcasing various Unity’s VR capabilities.",
+      "Reporting test results to help assist educators via online presentations using effective communication skills.",
+      "Worked with VR equipment and Unity’s XR Interaction Toolkit, ensuring software optimization and enhanced experience for users.",
+      "Designed, wrote and tested code using C# to program physics based interactions allowing integration between the user and virtual objects."]
+  }
+]
+}

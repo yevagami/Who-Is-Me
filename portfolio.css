@@ -1,0 +1,58 @@
+@import url("./fonts.css");
+
+#title{
+    letter-spacing: 0.3rem;
+    font-size: 7rem;
+    font-family: ZTOtez;
+    color: #fd8333;
+    text-align: center;
+}
+
+/*Container*/
+.portfolio-body{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10rem;
+    margin-left: 10rem;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+}
+
+/*Item container*/
+.portfolio-item{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: black;
+    margin-bottom: 4rem;
+}
+
+/*Image container*/
+.portfolio-item-image{
+    margin: 1rem;
+    max-width: 50%;
+    max-height: 100%;
+
+    /*centering the image*/
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    
+    flex-wrap: wrap;
+}
+.item-image{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    margin: auto;
+}
+
+/*Text container*/
+.portfolio-item-text{
+    font-size: 1.1rem;
+    margin: 1rem;
+    max-width: 50%;
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Horizontal Media Display</title>
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    background: #111;
+    color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    gap: 20px;
+    width: 1000px;
+    height: 450px;
+    background: #1a1a1a;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(255,255,255,0.1);
+  }
+
+  /* Slideshow */
+  .slideshow {
+    flex: 1.3;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+
+  .slides {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s ease-in-out;
+  }
+
+  .slides img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* ensures it fills horizontally */
+    aspect-ratio: 16/9;
+    flex-shrink: 0;
+    border-radius: 10px;
+  }
+
+  .controls {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .btn {
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background 0.3s;
+  }
+
+  .btn:hover {
+    background: rgba(255,255,255,0.3);
+  }
+
+  /* Info panel */
+  .info {
+    flex: 0.9;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffd369;
+  }
+
+  .tags {
+    margin-bottom: 15px;
+  }
+
+  .tag {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 5px 10px;
+    margin-right: 6px;
+    border-radius: 5px;
+    font-size: 13px;
+  }
+
+  .description {
+    line-height: 1.4em;
+    font-size: 15px;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="slideshow">
+      <div class="slides" id="slides">
+        <img src="https://picsum.photos/id/1015/800/450" alt="Slide 1">
+        <img src="https://picsum.photos/id/1025/800/450" alt="Slide 2">
+        <img src="https://picsum.photos/id/1035/800/450" alt="Slide 3">
+      </div>
+      <div class="controls">
+        <button class="btn" id="prev">&#10094; Prev</button>
+        <button class="btn" id="next">Next &#10095;</button>
+      </div>
+    </div>
+    <div class="info">
+      <div class="title" id="title">Morithon</div>
+      <div class="tags" id="tags">
+        <span class="tag">Unreal Engine</span>
+        <span class="tag">3D</span>
+        <span class="tag">Platformer</span>
+        <span class="tag">Multiplayer</span>
+      </div>
+      <div class="description" id="description">
+        Based on a popular minigame from Garry’s Mod, Morithon is a game that puts up to 4 players in a race against each other on an obstacle course.
+        Another player, the host of the game show, can activate various traps to stop the others in their tracks by using a drone.
+      </div>
+    </div>
+  </div>
+
+<script>
+  const slides = document.getElementById('slides');
+  const total = slides.children.length;
+  let index = 0;
+
+  const next = document.getElementById('next');
+  const prev = document.getElementById('prev');
+
+  function showSlide(i) {
+    slides.style.transform = `translateX(-${i * 100}%)`;
+  }
+
+  next.addEventListener('click', () => {
+    index = (index + 1) % total;
+    showSlide(index);
+  });
+
+  prev.addEventListener('click', () => {
+    index = (index - 1 + total) % total;
+    showSlide(index);
+  });
+
+  setInterval(() => {
+    index = (index + 1) % total;
+    showSlide(index);
+  }, 4000);
+</script>
+
+</body>
+</html>
