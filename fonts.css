@@ -17,3 +17,13 @@
     font-family: "ZTOtez";
     src: url("Fonts/ZTOtez-Regular.ttf");
 }
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url("Fonts/Ubuntu-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Ubuntu-Bold";
+    src: url("Fonts/Ubuntu-Bold.ttf");
+}
