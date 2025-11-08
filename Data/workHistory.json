@@ -1,6 +1,16 @@
 {
   "items": [
   {
+    "Position": "Mentor and Game Developer",
+    "Company": "Ebikohi Creatives, Malaysia",
+    "Date": "May - October 2025",
+    "Details": [
+    "Created a local 4 player coop game in Unreal Engine", 
+    "Mentored individuals on the inner workings of Unreal Engine",
+    "Provided guidance on using github when working on Unreal Engine as a team"]
+  },
+
+  {
     "Position": "Genshin Impact UGC Beta Programmer",
     "Company": "Hoyoverse, Singapore",
     "Date": "July - August 2025",
