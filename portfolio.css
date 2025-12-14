@@ -63,14 +63,15 @@
 }
 
 /*When You get to a specific screen size*/
-@media (max-width: 720px){
+@media (max-width: 1024px){
+
     .portfolio-item{
         flex-wrap: wrap;
     }
 
     .portfolio-body{
-        margin-right: 1rem;
-        margin-left: 1rem;   
+        margin-right: 3rem;
+        margin-left: 3rem;   
     }
 
     .portfolio-item-image{

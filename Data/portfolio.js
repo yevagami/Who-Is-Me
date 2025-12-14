@@ -23,7 +23,7 @@ async function WritePortfolion(){
             '</div>\n' +
             '<div class="portfolio-item-text">' + 
                 '<h1>' + item.title + '</h1>\n' +
-                '<p><b>' + tags + '</p></b>\n' + 
+                '<p><b><i>' + tags + '</p></b></i>\n' + 
                  description
             '</div>\n'+
         '</div>\n';

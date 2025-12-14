@@ -1,7 +1,7 @@
 
 /*The navigation buttons*/
 .go-home-button{
-    font-size: clamp(1.5rem,1.5rem, 2rem);
+    font-size: clamp(1.7rem, 1.7rem, 3rem);
     line-height: 0.5;
 
     padding-left: 2rem;
