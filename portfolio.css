@@ -13,10 +13,10 @@
 .portfolio-body{
     display: flex;
     flex-direction: column;
+
     margin-right: 10rem;
     margin-left: 10rem;
 
-    display: flex;
     justify-content: center; 
     align-items: center;    
 }
@@ -27,7 +27,7 @@
     flex-direction: row;
     color: white;
     background-color: black;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem; 
     font-family: Ubuntu;
 }
 
@@ -42,10 +42,10 @@
     justify-content: center; 
     align-items: center;   
     
-    flex-wrap: wrap;
+    flex: 1 1 auto;
 }
 .item-image{
-    object-fit: cover;
+    object-fit: scale-down;
     height: 100%;
     width: 100%;
     align-content: center;
@@ -56,5 +56,24 @@
 .portfolio-item-text{
     font-size: 1.3rem;
     margin: 1rem;
-    max-width: 50%;
+
+    flex: 1 1 auto;
+
+    width: 50%;
+}
+
+/*When You get to a specific screen size*/
+@media (max-width: 720px){
+    .portfolio-item{
+        flex-wrap: wrap;
+    }
+
+    .portfolio-body{
+        margin-right: 1rem;
+        margin-left: 1rem;   
+    }
+
+    .portfolio-item-image{
+        max-width: 100%;
+    }
 }

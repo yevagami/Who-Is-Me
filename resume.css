@@ -2,8 +2,16 @@
 
 .Content{
     font-size: 1.3rem;
-    margin-right: 20rem;
-    margin-left: 20rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+@media (min-width: 720px){
+    .Content{
+        font-size: 1.3rem;
+        margin-right: 20vw;
+        margin-left: 20vw;
+    }
 }
 
 p{
