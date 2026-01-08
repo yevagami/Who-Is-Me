@@ -22,13 +22,14 @@
 }
 
 /*Item container*/
-.portfolio-item{
+.portfolio-item, a{
     display: flex;
     flex-direction: row;
     color: white;
     background-color: black;
     margin-bottom: 2rem; 
     font-family: Ubuntu;
+    text-decoration: none;
 }
 
 /*Image container*/
@@ -78,3 +79,4 @@
         max-width: 100%;
     }
 }
+

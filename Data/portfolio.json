@@ -11,7 +11,8 @@
                 "./Assets/Portfolio/Frank's Box/FB-1.png",
                 "./Assets/Portfolio/Frank's Box/FB-2.png",
                 "./Assets/Portfolio/Frank's Box/FB-3.png"
-            ]
+            ],
+            "link": "https://semisinful.itch.io/franks-box"
         },
 
         {
@@ -27,7 +28,8 @@
                 "./Assets/Portfolio/Morithon/MO-3.png",
                 "./Assets/Portfolio/Morithon/MO-4.png",
                 "./Assets/Portfolio/Morithon/MO-5.jpeg"
-            ]
+            ],
+            "link": "https://dhafo.itch.io/morithon"
         },
 
         {
@@ -41,7 +43,8 @@
                 "./Assets/Portfolio/Purranormal Activity/PA-2.png",
                 "./Assets/Portfolio/Purranormal Activity/PA-3.png",
                 "./Assets/Portfolio/Purranormal Activity/PA-4.png"
-            ]
+            ],
+            "link": "https://yevagami.itch.io/purranormal-activity"
         },
 
         {
@@ -55,7 +58,8 @@
                 "./Assets/Portfolio/Elude/E-2.png",
                 "./Assets/Portfolio/Elude/E-3.png",
                 "./Assets/Portfolio/Elude/E-4.png"
-            ]
+            ],
+            "link": "https://yevagami.itch.io/elude"
         },
 
         {
@@ -69,7 +73,8 @@
                 "./Assets/Portfolio/Paper Paladin/PP-2.jpg",
                 "./Assets/Portfolio/Paper Paladin/PP-3.jpg",
                 "./Assets/Portfolio/Paper Paladin/PP-4.jpg"
-            ]
+            ],
+            "link" : ""
         },
 
         {
@@ -83,7 +88,8 @@
                 "./Assets/Portfolio/Wolf's Lost Legacy/WLL-2.jpg",
                 "./Assets/Portfolio/Wolf's Lost Legacy/WLL-3.jpg",
                 "./Assets/Portfolio/Wolf's Lost Legacy/WLL-4.jpg"
-            ]
+            ],
+            "link" : ""
         },
 
         {
@@ -97,7 +103,8 @@
                 "./Assets/Portfolio/Bunch O Boxes/BOB-2.png",
                 "./Assets/Portfolio/Bunch O Boxes/BOB-3.png",
                 "./Assets/Portfolio/Bunch O Boxes/BOB-4.png"
-            ]
+            ],
+            "link": "https://leyden05.itch.io/bunchoboxes"
         },
 
         {
@@ -111,7 +118,8 @@
                 "./Assets/Portfolio/Daemon Crawlers/DC-2.png",
                 "./Assets/Portfolio/Daemon Crawlers/DC-3.png",
                 "./Assets/Portfolio/Daemon Crawlers/DC-4.png"
-            ]
+            ],
+            "link": "https://github.com/yevagami/Midstone-Flat-Eathers"
         }
 
     ]

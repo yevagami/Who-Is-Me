@@ -10,18 +10,18 @@
     margin-bottom: 2rem;
 }
 
-a:link {
+a.go-home-button:link {
     font-family: AnkaCoderBold;
     text-decoration: none;
     color: black;
 }
 
-a:visited {
+a.go-home-button:visited {
     text-decoration: none;
     color: black;
 }
 
-a:hover {
+a.go-home-button:hover {
     display:inline-block;
     transform: scale(1.7);
     font-family: ZTOtez;
