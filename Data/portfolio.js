@@ -7,7 +7,7 @@ async function WritePortfolion(){
     data.items.forEach(item => {
         let tags = "";
         item.tags.forEach(tag => {
-            tags += tag +", ";
+            tags += tag + "; ";
         });
 
         let description = "";

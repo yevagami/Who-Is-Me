@@ -16,6 +16,23 @@
         },
 
         {
+            "title" : "Bubblepop Fishing",
+            "tags" : ["Unity", "2D", "Fishing"],
+            "description" : [
+                "Ever thought of fishing in your bathtub? No? Then I guess you are normal. This is for us weirdos out there.",
+                "Collect fish while avoiding bubbles. As you know, bubbles are a fisherman's greatest weakness and fear.",
+                "Get the highest score possible in 5 minutes. Best of luck.",
+                "Made for the 2025 Global Game Jam"],
+            "mediaUrl" : [
+                "./Assets/Portfolio/Bubblepop Fishing/BF-1.png",
+                "./Assets/Portfolio/Bubblepop Fishing/BF-2.png",
+                "./Assets/Portfolio/Bubblepop Fishing/BF-3.png",
+                "./Assets/Portfolio/Bubblepop Fishing/BF-4.png"
+            ],
+            "link": "https://yevagami.itch.io/bubblepop-fishing"
+        },
+
+        {
             "title" : "Morithon",
             "tags" : ["Unreal Engine", "3D", "Platformer", "Multiplayer"],
             "description" : [

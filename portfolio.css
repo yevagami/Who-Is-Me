@@ -9,6 +9,11 @@
     margin-bottom: 0;
 }
 
+body{
+    background-image: url("./Assets/PortfolioBG.png"); /* Replace with your image path */
+    background-repeat: repeat-y;
+}
+
 /*Container*/
 .portfolio-body{
     display: flex;
