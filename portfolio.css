@@ -22,7 +22,7 @@
 }
 
 /*Item container*/
-.portfolio-item, a{
+.portfolio-item, a.portfolio-link{
     display: flex;
     flex-direction: row;
     color: white;
@@ -31,6 +31,7 @@
     font-family: Ubuntu;
     text-decoration: none;
 }
+
 
 /*Image container*/
 .portfolio-item-image{

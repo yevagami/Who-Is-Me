@@ -22,7 +22,7 @@ async function WritePortfolion(){
                 '<img src="' + item.mediaUrl[0] + '" class="item-image">\n'+
             '</div>\n' +
             '<div class="portfolio-item-text">' + 
-                '<h1>' + '<a href=' + '"'+ item.link + '">'  + item.title + '</a></h1>\n' +
+                '<h1>' + '<a class="portfolio-link" href=' + '"'+ item.link + '">'  + item.title + '</a></h1>\n' +
                 '<p><b><i>' + tags + '</p></b></i>\n' + 
                  description
             '</div>\n'+
